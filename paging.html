@@ -1,0 +1,22 @@
+<!--简单的分页效果-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>分页</title>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="./paging.css">
+    </head>
+    <body>
+        <div id="mainInterface">
+            <div id="content"><!--动态生成的内容显示的位置-->
+            </div>
+            <button id="prePage">上一页</button>
+            <span id="currentPage"></span><!--显示当前页的页号-->
+            <button id="nextPage">下一页</button>
+            <span id="totalPage"></span><!--显示总页数-->
+        </div>
+        
+        <script src="./paging.js"></script>
+    </body>
+</html>
